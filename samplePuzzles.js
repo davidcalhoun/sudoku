@@ -1,6 +1,6 @@
 export const puzzles = [
     {
-        name: "easy1",
+        name: 'easy1',
         grid: [
             [0, 3, 7, 0, 0, 0, 1, 6, 0],
             [0, 0, 0, 9, 0, 0, 0, 0, 4],
@@ -16,7 +16,7 @@ export const puzzles = [
         ]
     },
     {
-        name: "hard1",
+        name: 'hard1',
         grid: [
             [0, 0, 0, 0, 9, 4, 0, 0, 3],
             [0, 6, 8, 0, 1, 0, 0, 0, 9],
@@ -31,5 +31,4 @@ export const puzzles = [
             [6, 0, 0, 1, 5, 0, 0, 0, 0]
         ]
     }
-
 ];

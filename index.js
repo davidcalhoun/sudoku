@@ -64,5 +64,9 @@ export function solve(grid, stats = { tryCount: 0, maxTries: 100 }) {
     // apply solutions to grid, then rerun
     const newGrid = applySolutions(grid, solutions);
 
+    if (stats.maxTries >= stats.tryCount) {
+        return false;
+    }
+
     return solve(newGrid, { ...stats, tryCount: stats.tryCount + 1 });
 }
